@@ -1,0 +1,50 @@
+@media (max-width: 865px) {
+	#sobre {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#sobre .informativo h2 {
+		text-align: center;
+	}
+
+	#sobre figure img {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 730px) {
+	#leituras .lista-livros {
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 15px;
+	}
+}
+
+@media (max-width: 660px) {
+	#generos-literario {
+		align-items: center;
+	}
+
+	#generos-literarios ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#generos-literarios ul li img {
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 500px) {
+	header {
+		flex-direction: column;
+	}
+
+	footer {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+}
